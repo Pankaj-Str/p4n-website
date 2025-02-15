@@ -1567,3 +1567,84 @@ h6 {
     margin-bottom: 25px;
   }
 }
+
+
+/*--------------------------------------------------------------
+# Membership Section
+--------------------------------------------------------------*/
+
+#membership {
+  width: 100%;
+  min-height: 100vh; /* Ensures the section takes full height */
+  position: relative;
+  background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat;
+  background-size: cover;
+  padding-top: 80px; /* Adjust top padding to prevent overlap with header */
+  padding-bottom: 60px; /* Adds space at the bottom to avoid overlap with footer */
+}
+
+#membership .info {
+  color: #413e66;
+  text-align: left;
+}
+
+#membership .info h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#membership .info h3 {
+  font-size: 24px;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+#membership .info .btn-container {
+  margin-top: 30px;
+}
+
+#membership .info .btn-container .btn {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #1bb1dc;
+}
+
+#membership .info .btn-container .btn:hover {
+  background: #0a98c0;
+}
+
+#membership .info p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 20px;
+  color: #333;
+}
+
+#membership .info h5 {
+  font-weight: bold;
+  margin-top: 20px;
+  color: #333;
+}
+
+#membership .info ul {
+  list-style-type: disc;
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+#membership .info ul li {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
+
