@@ -1649,7 +1649,7 @@ h6 {
 
 .info-box {
   background-color: white;
-  color: black;
+  color: rgb(22, 17, 17);
   padding: 15px;
   border-radius: 10px;
   text-align: left;
@@ -1663,6 +1663,42 @@ h6 {
 .info-box h1 {
   color: #00C3FF;
   font-size: 1.5rem;
+}
+
+
+/*--------------------------------------------------------------
+# Membership Section Cards
+--------------------------------------------------------------*/
+
+/* Card Styles */
+/* Card Styles */
+.custom-card {
+  background-color: #fff;  /* Light background for the card */
+  color: #333;  /* Dark text color for contrast */
+  border: 1px solid #ccc;  /* Light border */
+  text-align: center;
+}
+
+.custom-card-body {
+  padding: 2rem;
+  background-color: #f9f9f9;  /* Light background for the card body (info section) */
+}
+
+.custom-btn-primary {
+  background-color: #007bff;  /* Blue button */
+  border: none;
+  width: 100%;
+  color: white;  /* White text on the button */
+}
+
+.custom-list {
+  list-style: none;
+  padding: 0;
+}
+
+.custom-list li {
+  margin: 5px 0;
+  border-bottom: 1px solid #ddd;  /* Light borders between list items */
 }
 
 
