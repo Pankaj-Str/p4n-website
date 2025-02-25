@@ -1739,6 +1739,11 @@ h6 {
   text-align: center;
   max-width: 800px;
   padding: 20px;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: #f5f8fd url("/img/intro-bg.jpg") center top no-repeat;
+  background-size: cover;
 }
 
 .hero-content h2 {
@@ -1772,6 +1777,8 @@ h6 {
 .hero-content .btn-secondary:hover {
   background: #217dbb;
 }
+
+
 
 
 
