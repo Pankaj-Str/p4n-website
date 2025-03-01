@@ -504,7 +504,7 @@ h6 {
 }
 
 #about .about-content {
-  padding-top: 40px;
+  padding-top: 0px;
 }
 
 #about .about-content h2 {
@@ -1584,7 +1584,7 @@ h6 {
 }
 
 #membership .info {
-  color: #413e66;
+  color: #413e66; /* Dark blue color for text */
   text-align: left;
 }
 
@@ -1597,7 +1597,7 @@ h6 {
 #membership .info h3 {
   font-size: 24px;
   margin-bottom: 40px;
-  color: #555;
+  color: #333; /* Dark gray for h3 */
 }
 
 #membership .info .btn-container {
@@ -1615,24 +1615,24 @@ h6 {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #1bb1dc;
+  background: #535074; /* Darker purple color for buttons */
 }
 
 #membership .info .btn-container .btn:hover {
-  background: #0a98c0;
+  background: #413e66; /* Slightly lighter shade for hover effect */
 }
 
 #membership .info p {
   font-size: 16px;
   line-height: 1.6;
   margin-top: 20px;
-  color: #333;
+  color: #333; /* Dark gray for paragraph text */
 }
 
 #membership .info h5 {
   font-weight: bold;
   margin-top: 20px;
-  color: #333;
+  color: #333; /* Dark gray for h5 */
 }
 
 #membership .info ul {
@@ -1644,6 +1644,7 @@ h6 {
 #membership .info ul li {
   font-size: 16px;
   line-height: 1.6;
+  color: #333; /* Dark gray for list items */
 }
 
 
@@ -1657,11 +1658,13 @@ h6 {
   transition: transform 0.3s ease-in-out;
   width: 250px;
 }
+
 .info-box:hover {
   transform: scale(1.05);
 }
+
 .info-box h1 {
-  color: #535074;
+  color: #535074; /* Dark purple for h1 in info box */
   font-size: 1.5rem;
 }
 
@@ -1670,7 +1673,6 @@ h6 {
 # Membership Section Cards
 --------------------------------------------------------------*/
 
-/* Card Styles */
 /* Card Styles */
 .custom-card {
   background-color: #fff;  /* Light background for the card */
@@ -1685,10 +1687,14 @@ h6 {
 }
 
 .custom-btn-primary {
-  background-color: #007bff;  /* Blue button */
+  background-color: #535074;  /* Dark purple button */
   border: none;
   width: 100%;
   color: white;  /* White text on the button */
+}
+
+.custom-btn-primary:hover {
+  background-color: #413e66; /* Lighter shade for hover effect */
 }
 
 .custom-list {
