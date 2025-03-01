@@ -1785,6 +1785,20 @@ h6 {
 }
 
 
+/*--------------------------------------------------------------
+# Blog Content Section
+--------------------------------------------------------------*/
+
+#blog-content {
+  width: 100%;
+  min-height: 100vh; /* Ensures the section takes full height */
+  position: relative;
+  background: #fafafa url("../img/blog-bg.jpg") center top no-repeat;
+  background-size: cover;
+  padding-top: 120px; /* Adjust padding to prevent overlap with fixed header */
+  padding-bottom: 80px; /* Adds space at the bottom to avoid overlap with footer */
+}
+
 
 
 
