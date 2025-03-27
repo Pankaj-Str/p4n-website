@@ -412,6 +412,43 @@
     <!-- Course Description -->
 
 
+    <!-- PDF Viewer -->
+
+ <!-- PDF Viewer Section -->
+<div class="pdf-viewer-container d-flex flex-column">
+    <!-- Top Navbar -->
+    <div class="navbar-wrapper d-flex justify-content-center spacing-4 text-center">
+      <h1 class="font-weight-bold text-center">Python Programming</h1>
+    </div>
+    <!-- PDF Viewer Canvas and other sections follow here -->
+  </div>
+  
+  
+    <!-- PDF Viewer Canvas -->
+    <div class="flex-layout flex-grow-1 justify-content-center align-items-center">
+      <canvas id="canvas-pdf-viewer" class="pdf-viewer-canvas">
+        <p>Loading...</p>
+      </canvas>
+    </div>
+  
+    <!-- Page Navigation and Buttons -->
+    <div class="flex-layout justify-content-center spacing-4">
+      <a href="#" id="prev" class="pdf-btn-style mx-2">Prev</a>
+      <a href="#" id="next" class="pdf-btn-style mx-2">Next</a>
+      <a href="#" id="download" class="pdf-btn-style mx-2">Download</a>
+    </div>
+  
+    <!-- Page Count -->
+    <div class="page-count-display text-center">
+      <span>Page</span>
+      <span id="currentPage">0</span>
+      <span>/</span>
+      <span id="totalPages">0</span>
+    </div>
+  </div>
+  
+
+
 
 
 
